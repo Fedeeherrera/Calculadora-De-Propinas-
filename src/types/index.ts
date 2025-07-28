@@ -3,3 +3,7 @@ export type MenuItemType = {
   name : string,
   price: number
 }
+
+export type OrderItem = MenuItemType & {
+  quantity : number
+}
